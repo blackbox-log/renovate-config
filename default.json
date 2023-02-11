@@ -2,8 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "npm:unpublishSafe",
-    "group:monorepos"
+    "npm:unpublishSafe"
   ],
   "git-submodules": {
     "enabled": true
